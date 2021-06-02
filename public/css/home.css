@@ -1,0 +1,80 @@
+*{margin: 0;
+padding: 0;}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(fondhome.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+nav{
+
+    top: 0;
+    z-index: 3;
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav img{
+    width: 350px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(-90deg, rgba(2,0,36,1) 12%, rgba(40,118,116,1) 36%, rgba(0,212,255,1) 99%);
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}
+.nav-links ul li::before{
+    content: '';
+    width: 0.00001%;
+    height: 3px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(40,118,116,1) 36%, rgba(0,212,255,1) 99%);
+    display: block;
+    margin: auto;
+    transition: 0.9s;
+}
+.nav-links ul li:hover::before{
+    width: 70%;
+}
+.nav-links ul li:hover::after{
+    width: 70%;
+}
+.About p {
+    font-family: 'Monda', sans-serif
+}
+.About-links ul li img  {
+    width: 20px;
+}
+.About-links ul{
+    z-index: 3;
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    list-style: none;
+}
+
+

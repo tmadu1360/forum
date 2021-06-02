@@ -1,0 +1,14 @@
+.seth{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: linear-gradient(90deg, rgba(233,233,237,1) 0%, rgba(244,162,0,1) 50%, rgba(255,0,17,1) 100%);
+    position: relative;
+    cursor: pointer;
+}
+.seth ul li {
+    color: black;
+    font-size: 24px;
+}
